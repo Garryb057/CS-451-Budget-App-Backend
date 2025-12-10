@@ -16,8 +16,7 @@ from notificationSettings import NotificationSettings
 from BankEmail import send_verification_email
 
 app = Flask(__name__)
-#Needs Updating
-app.secret_key = 'secret-key'
+app.secret_key = 'ajfab21021-219301231n-j43l21$@'
 CORS(app, supports_credentials=True, origins=["http://localhost:3000"])
 
 db = {
